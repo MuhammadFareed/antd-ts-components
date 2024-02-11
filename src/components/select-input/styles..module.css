@@ -1,0 +1,19 @@
+.primary,
+.primary:hover {
+  color: var(--black) !important;
+  background-color: var(--yellow) !important;
+}
+.secondary,
+.secondary:hover {
+  border: 1px solid var(--pink) !important;
+  color: var(--pink) !important;
+  background-color: var(--white);
+}
+.tertiary {
+  color: var(--white) !important;
+  background-color: var(--pink) !important;
+}
+.quaternary {
+  color: var(--white) !important;
+  background-color: var(--grey) !important;
+}

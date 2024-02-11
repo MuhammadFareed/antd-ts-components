@@ -1,0 +1,28 @@
+.badge {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.teacher_manager {
+  background-color: var(--pink);
+}
+.super_teacher {
+  background-color: var(--red);
+}
+.graduate_teacher {
+  background-color: var(--orange);
+}
+.teacher_manager img,
+.super_teacher img {
+  height: 50px;
+  width: auto;
+}
+.graduate_teacher img {
+  height: 45px;
+  width: auto;
+  margin-top: 8%;
+  margin-left: 9%;
+}

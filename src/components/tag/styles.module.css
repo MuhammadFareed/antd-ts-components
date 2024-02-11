@@ -1,0 +1,48 @@
+.tag {
+  height: 21px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+.tag .tag_text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 1px;
+  margin-inline: 7px;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  white-space: nowrap;
+}
+.grey {
+  color: #969696;
+  background-color: #f1f1f1;
+  border: 1px solid #d7d7d7;
+}
+.pink {
+  color: var(--pink);
+  background-color: #fbebed;
+  border: 1px solid #ebb9bf;
+}
+.sky {
+  color: #14acbd;
+  background-color: #e8f7f8;
+  border: 1px solid #b3d7d9;
+}
+.green {
+  color: #5ca249;
+  background-color: #f0f8ee;
+  border: 1px solid #bbdfb1;
+}
+.red {
+  color: red;
+  background-color: #ff000026;
+  border: 1px solid #ff00006b;
+}
+.orange {
+  color: #ce9405;
+  background-color: #ffb60238;
+  border: 1px solid #fdb913c4;
+}

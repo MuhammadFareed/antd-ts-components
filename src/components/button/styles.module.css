@@ -1,0 +1,26 @@
+.primary {
+  color: var(--black) !important;
+  background-color: var(--yellow) !important;
+}
+.secondary {
+  border: 1px solid var(--pink) !important;
+  color: var(--pink) !important;
+  background-color: var(--white);
+}
+.tertiary {
+  color: var(--white) !important;
+  background-color: var(--pink) !important;
+}
+.quaternary {
+  color: var(--black) !important;
+  background-color: var(--white) !important;
+}
+.quaternary:hover {
+  background-color: var(--light-grey) !important;
+}
+button.primary:disabled,
+button.secondary:disabled,
+button.tertiary:disabled,
+button.quaternary:disabled {
+  background-color: var(--grey) !important;
+}

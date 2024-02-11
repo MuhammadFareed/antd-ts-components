@@ -1,0 +1,38 @@
+.modalHeader {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.success {
+  color: #005eff;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.info {
+  color: #000000;
+}
+
+.paymentText {
+  margin: 30px 0px;
+}
+
+.cancelBtn {
+  cursor: pointer;
+  color: #005eff;
+  font-weight: 500;
+}
+
+.modalImg {
+  /* width: 25%; */
+  height: 70px;
+  margin-right: 5%;
+}
+
+.content {
+  width: 70%;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

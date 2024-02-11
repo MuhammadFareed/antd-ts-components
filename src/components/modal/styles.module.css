@@ -1,0 +1,22 @@
+.custom_modal_header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--light-grey);
+}
+.custom_modal_body {
+  padding: 20px;
+  max-height: calc(100vh - 150px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.custom_modal_footer {
+  padding: 16px 20px;
+  border-top: 1px solid var(--light-grey);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-height: 750px) {
+  .custom_modal_body {
+    padding: 10px;
+  }
+}

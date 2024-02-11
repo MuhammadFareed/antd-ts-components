@@ -1,0 +1,38 @@
+.dots_menu_div {
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.dots_menu_div:hover {
+  background-color: #cccccc60;
+}
+.menu_list {
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 2px 4px 4px 4px;
+  box-shadow: 0px 0px 4px rgb(0 0 0 / 50%);
+  width: max-content;
+  min-width: 120px;
+}
+.menu_item {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 4px;
+  transition: all 0.4s;
+  position: relative;
+}
+.menu_item:hover {
+  background-color: #cccccc60;
+}
+.disabled_option {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+.dots_menu_icon {
+  height: 24px;
+  width: auto;
+}
+.item_text {
+  color: var(--dark-grey) !important;
+}

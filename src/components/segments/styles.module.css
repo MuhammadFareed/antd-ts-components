@@ -1,0 +1,40 @@
+.segments {
+  display: flex;
+  flex-flow: row;
+  background-color: #cccccc45;
+  border-radius: 8px;
+  padding: 3px;
+}
+.segment_item {
+  width: 100%;
+  min-height: 28px;
+  line-height: 28px;
+  padding: 5px 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s;
+  margin-inline: 2px;
+}
+.segment_item .segment_text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active_segment .segment_text {
+  color: var(--white) !important;
+}
+.segment_text {
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+.segment_item:hover {
+  cursor: pointer;
+  background-color: #cccccc85;
+}
+.active_segment {
+  background-color: var(--pink) !important;
+}

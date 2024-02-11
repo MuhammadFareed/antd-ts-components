@@ -1,0 +1,37 @@
+.step {
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.filled_circle {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  background-color: var(--pink);
+}
+.line_between_circles {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.line_between_circles .line {
+  height: 1px;
+  width: 100%;
+}
+.step_name {
+  margin-top: 10px;
+  position: absolute;
+  text-align: center;
+  width: 90px;
+  left: -30px;
+}
+@media (max-width: 500px) {
+  .step_name {
+    font-size: 12px !important;
+  }
+}

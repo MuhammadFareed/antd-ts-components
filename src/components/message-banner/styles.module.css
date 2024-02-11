@@ -1,0 +1,17 @@
+.yellow_banner {
+  padding: 16px 30px;
+  border-radius: 20px;
+  background-color: var(--yellow);
+  position: relative;
+  padding-left: 140px;
+  min-height: 91px;
+  display: flex;
+  align-items: center;
+}
+.teacher_icon {
+  width: 67px;
+  height: 106px;
+  position: absolute;
+  bottom: 0px;
+  left: 40px;
+}

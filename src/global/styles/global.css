@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--light-grey2);
+  overflow: hidden auto;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --pink: #d01e79;
+  --green: #abff45;
+  --dark-green: #6cb657;
+  --yellow: #fccf13;
+  --orange: #fca613;
+  --red: #ec1847;
+  --pgreen: #7de103;
+  --light-grey: #ccc;
+  --light-grey2: #fbfbfb;
+  --light-grey3: #cccccc60;
+  --grey: #969696;
+  --dark-grey: #6b6b6b;
+  --heading: #0e153a;
+  --sky: #00abbd;
+  --blue: #005eff;
+  --dark-blue: #24397e;
+  --black02: #e6e6e6;
+  --border-grey: #f0f0f0;
+  --light-indigo: #889bff;
+  --light-yellow: #ffedc2;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--pink);
+}
+
+.ant-tabs-ink-bar,
+.ant-tabs-ink-bar-animated {
+  background-color: var(--pink) !important;
+}
+
+.ant-tabs-tab:hover {
+  color: var(--pink) !important;
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+.ant-drawer-close {
+  margin: 0 !important;
+}
+.text-center {
+  text-align: center;
+}
+.ant-drawer-header,
+.ant-drawer-body {
+  padding: 18px !important;
+}
+/* .ant-input:focus,
+.ant-input:hover,
+.ant-picker:hover,
+.ant-picker-focused {
+  border-color: var(--pink);
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+  box-shadow: 0 0 0 2px rgba(87, 168, 233, 0.2);
+} */
+.ant-select.ant-select-multiple .ant-select-selector .ant-select-selection-item {
+  color: var(--white);
+  background-color: var(--pink);
+}
+.ant-modal-content {
+  padding: 0px !important;
+}
+.react-multiple-carousel__arrow {
+  background: var(--white) !important;
+  border: 2px solid var(--pink) !important;
+  z-index: 9 !important;
+}
+.react-multiple-carousel__arrow::before {
+  color: var(--pink) !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: 20px !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 20px !important;
+}
+.react-multiple-carousel__arrow {
+  min-height: 33px !important;
+  min-width: 33px !important;
+}
+.learning_library .ant-menu-submenu-title .ant-menu-title-content {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 500;
+}
+.learning_library .ant-menu-item.ant-menu-item-only-child {
+  height: 32px !important;
+}
+.learning_library .ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-selected {
+  background-color: #fbebed;
+}
+.learning_library .ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child:hover,
+.learning_library .ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+  background-color: #f9d5e0 !important;
+}
+.learning_library .ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child .submenu_label {
+  color: var(--pink);
+}
+.learning_library .submenu_label {
+  color: #6b6b6b;
+  font-size: 13px;
+  font-weight: 500;
+}
+.learning_library .ant-menu-submenu.ant-menu-submenu-inline.ant-menu-submenu-selected .ant-menu-title-content {
+  color: var(--pink) !important;
+}
+.learning_library .ant-menu-submenu.ant-menu-submenu-selected .ant-menu-submenu-arrow::before,
+.learning_library .ant-menu-submenu.ant-menu-submenu-selected .ant-menu-submenu-arrow::after {
+  background-color: var(--pink);
+}
+.learning_library .ant-menu-submenu-title:hover {
+  background-color: #fbebed !important;
+}
+.learning_library .ant-menu-item.ant-menu-item-only-child:hover {
+  background-color: #fbebed !important;
+}
+.learning_library .ant-menu.ant-menu-sub.ant-menu-inline {
+  background: none !important;
+}
+.learning_library .ant-menu.ant-menu-root.ant-menu-inline {
+  border: none;
+}
+.learning_library .ant-menu.ant-menu-inline.ant-menu-light.ant-menu-root {
+  padding-inline: 4px;
+}
+.learning_library .ant-menu-submenu-selected > .ant-menu-submenu-title {
+  color: var(--pink);
+}
+.learning_library .ant-layout-sider-children {
+  max-height: calc(100vh - 110px);
+  overflow: auto;
+  transition: none;
+}
+.learning_library .ant-layout-sider {
+  padding-bottom: 4px;
+}
+.learning_library ::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background-color: #d01e7965;
+  opacity: 0.5;
+}
+.ant-segmented .ant-segmented-item-selected {
+  transform: none;
+  background-color: var(--pink);
+  color: var(--white) !important;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: var(--pink) !important;
+  border-color: var(--pink) !important;
+}
+.create_package .upload-list-inline .ant-upload-list-item {
+  float: left;
+  width: 200px;
+  margin-inline-end: 8px;
+}
+.create_package .ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+  float: right;
+}
+input::placeholder,
+textarea::placeholder,
+.ant-select-selection-placeholder {
+  font-size: 14px !important;
+  color: #bfbfbf !important;
+  font-weight: 400 !important;
+}
+.ant-radio-wrapper .ant-radio-checked .ant-radio-inner {
+  border-color: var(--pink);
+  background-color: var(--pink);
+}
+.ant-pagination-item {
+  border: 1px solid #ccc !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) !important;
+}
+.ant-pagination-item.ant-pagination-item-active a {
+  color: var(--pink) !important;
+}
+.ant-pagination-item.ant-pagination-item-active {
+  border-color: var(--pink) !important;
+}
+.ant-input.ant-input-disabled {
+  color: rgba(0, 0, 0, 0.88) !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #d01e79 !important;
+  border-color: #d01e79 !important;
+}
+.ant-checkbox .ant-checkbox-input:focus-visible + .ant-checkbox-inner {
+  outline: 4px solid #d01e797d !important;
+}
+.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner,
+.ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner {
+  border-color: #d01e79 !important;
+}
+
+.ant-checkbox-checked:after {
+  border: 2px solid #d01e79 !important;
+}
+.learning_library .ant-pagination-item {
+  margin: 0 3px !important;
+}

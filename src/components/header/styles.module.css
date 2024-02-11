@@ -1,0 +1,126 @@
+.pink_div {
+  background-color: var(--pink);
+  width: 100%;
+  transition: 0.3s all;
+}
+.pink_div_show {
+  height: 100px;
+}
+.pink_div_hide {
+  height: 0px;
+}
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.dropdownStyle {
+  width: 400px;
+}
+.text {
+  padding: 10px;
+}
+.notification {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 10px;
+}
+.logo {
+  width: 161px;
+  height: 26px;
+}
+.nav_items {
+  display: flex;
+}
+.nav_item {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-inline: 18px;
+  color: var(--dark-grey);
+}
+.nav_item:hover {
+  color: var(--dark-grey);
+}
+.nav_item_bottom_div {
+  width: 0px;
+  border-bottom: 3px solid var(--pink);
+  transition: all 0.4s;
+}
+.nav_item:hover .nav_item_bottom_div,
+.active_nav_item {
+  width: 100%;
+}
+.nav_item_div {
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+.bell_light {
+  height: 24px;
+  width: 24px;
+}
+.test_tp {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.user_name {
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #2b2b2b;
+}
+.teacher_type {
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--pink);
+}
+.mobile_menu {
+  display: none;
+  align-items: center;
+  cursor: pointer;
+  margin-inline: 20px;
+}
+.menu_size {
+  font-size: 20px;
+}
+.mobile_drawer_item {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--dark-grey);
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.z_index {
+  z-index: 999;
+}
+.mobile_drawer_item_logout:hover {
+  color: #69b1ff;
+}
+@media (min-width: 992px) {
+  .navbar_large_screen_items {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  .mobile_menu {
+    display: flex;
+  }
+  .navbar_large_screen_items {
+    display: none;
+  }
+}
+@media (max-width: 1199px) {
+  .nav_item {
+    margin-inline: 11px;
+  }
+}

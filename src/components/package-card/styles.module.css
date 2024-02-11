@@ -1,0 +1,119 @@
+.package_card {
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #e1dada;
+  background-color: var(--white);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  margin-inline: 7.5px;
+}
+.package_card:hover {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.package_cover {
+  display: flex;
+  height: 173px;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.package_cover img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.tag {
+  width: fit-content;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 600;
+  right: 5px;
+  border-radius: 5px;
+  bottom: 5px;
+}
+.online_tag {
+  background-color: var(--dark-green);
+  color: #fff;
+  border: 1px solid #fff;
+  position: absolute;
+}
+.onsite_tag {
+  background-color: #fff;
+  color: var(--dark-green);
+  border: 1px solid var(--dark-green);
+  position: absolute;
+}
+.card_body {
+  padding: 12px;
+}
+.rating_space {
+  color: var(--yellow);
+}
+.rating_space p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.star {
+  font-size: 20px;
+}
+.title {
+  line-height: 22px !important;
+}
+.days_tag {
+  width: fit-content;
+  background-color: #f1f1f1;
+  color: var(--grey);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.grade img {
+  height: 16px;
+  width: 16px;
+}
+.grade p {
+  margin-bottom: 0px;
+  color: var(--dark-grey);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-top: 2px;
+}
+.days_row {
+  margin-top: 12px;
+  flex-wrap: wrap;
+  gap: 12px 20px !important;
+}
+.class_timing {
+  color: #6b6b6b;
+  margin-top: 16px;
+}
+.class_timing_icon {
+  font-size: 15px;
+}
+.class_timing p {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.price {
+  color: var(--dark-green);
+  margin-bottom: 0px;
+}
+.active {
+  display: flex;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: #7de103;
+  color: #fff;
+  font-size: 11px;
+}
+.red_color {
+  color: #ec1847;
+}
